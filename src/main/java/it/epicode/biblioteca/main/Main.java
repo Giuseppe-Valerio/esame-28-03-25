@@ -23,10 +23,12 @@ public class Main {
             ElementoCatalogo libro1 = new Libro("978-3-16-148410-0", "Il Signore degli Anelli", 1954, 1178, "J.R.R. Tolkien", Genere.FANTASY);
             ElementoCatalogo libro2 = new Libro("978-0-7432-7356-5", "Il Codice da Vinci", 2003, 689, "Dan Brown", Genere.GIALLO);
             ElementoCatalogo libro3 = new Libro("978-0-553-21311-7", "IT", 1986, 1138, "Stephen King", Genere.HORROR);
+            ElementoCatalogo libro4 = new Libro("978-3-16-148410-0", "Il Signore degli Anelli", 1954, 1178, "J.R.R. Tolkien", Genere.FANTASY);
 
             dao.save(libro1);
             dao.save(libro2);
             dao.save(libro3);
+            dao.save(libro4);
 
 
             ElementoCatalogo rivista1 = new Rivista("123-4-56-789012-3", "National Geographic", 2023, 120, Periodicita.MENSILE);
