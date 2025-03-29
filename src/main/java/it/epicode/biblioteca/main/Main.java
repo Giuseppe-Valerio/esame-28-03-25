@@ -55,6 +55,7 @@ public class Main {
 
             em.getTransaction().commit();
             System.out.println("Dati inseriti con successo!");
+            System.out.println("prova commit");
 
         } catch (Exception e) {
             em.getTransaction().rollback();
